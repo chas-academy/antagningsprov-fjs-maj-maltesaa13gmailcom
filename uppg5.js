@@ -8,8 +8,6 @@ function uppg5() {
     } else {
         console.log("Det andra talet är större än det första")
     }
-
-
 }
 
 module.exports = { uppg5 };

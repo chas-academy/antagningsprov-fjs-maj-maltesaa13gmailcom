@@ -29,6 +29,6 @@ function uppg10(){
     }
     
     return {bigEven, smallOdd, other}
-  }
+}
   
 module.exports = { uppg10 };
