@@ -1,4 +1,12 @@
-
+function sort(numbers){
+    for (let number of numbers){
+        if ((number % 2) === 0){
+            console.log(number + " jämt")
+        } else {
+            console.log(number + " udda")
+        }
+    }
+}
 
 function uppg9 (){
     // skapa en funktion som heter sort och tar in en array av siffror som argument
@@ -7,7 +15,9 @@ function uppg9 (){
     // resultatet ska loggas i formatet: talet och sen ordet "jämt" eller "udda"
 
     // anropa funktionen och skicka med en array som argument
+    const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14, 16, 15, 13, 11]
 
+    sort(numbers)
   
 }
 
