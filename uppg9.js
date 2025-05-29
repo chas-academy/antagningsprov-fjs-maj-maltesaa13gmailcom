@@ -1,9 +1,9 @@
 function sort(numbers){
     for (let number of numbers){
-        if ((number % 2) === 0){
-            console.log(number + " jämt")
+        if (number % 2 === 0){
+            console.log(number, "jämt")
         } else {
-            console.log(number + " udda")
+            console.log(number, "udda")
         }
     }
 }
